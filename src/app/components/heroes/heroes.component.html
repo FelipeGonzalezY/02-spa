@@ -2,8 +2,8 @@
 
 <hr>
 
-<div class="card-columns animated fadeIn">
-  <div class="card" *ngFor="let heroe of heroes; let i = index">
+<div class="card-columns">
+  <div class="card animated fadeIn fast" *ngFor="let heroe of heroes; let i = index">
     <img class="card-img-top img-fluid" [src]="heroe.img" [alt]="heroe.nombre">
     <div class="card-body">
       <h5 class="card-title">{{heroe.nombre}}</h5>

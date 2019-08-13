@@ -3,8 +3,12 @@ body {
   padding-bottom: 20px
 }
 
-.main-container{
+.main-container {
   margin-top: 20px;
+}
+
+.img-logo {
+  width: 120px;
 }
 
 /* ANIMACIONES */
